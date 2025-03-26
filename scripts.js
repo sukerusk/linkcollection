@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       link.style.transition = 'opacity 0.5s ease';
       setTimeout(() => {
         link.style.opacity = 1;
-      }, index * 200);
+      }, (index+1) * 200);
     });
   });
   
